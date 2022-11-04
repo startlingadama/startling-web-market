@@ -1,0 +1,76 @@
+body {
+  background-color: #311B92;
+  background-image: url("./../img/font-login.jpeg");
+  background-size: 100%;
+  color: #FFEBEE;
+}
+
+.boite {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+
+.titre {
+  text-align: center;
+  font-family: Lora, sans-serif;
+}
+
+.formulaire {
+  border: 2px outset;
+  border-radius: 20px;
+  width: 250px;
+  padding: 20px;
+  animation: anima 0.5s infinite;
+}
+
+input, .lab {
+  margin-left: 40px;
+}
+
+#submit {
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  margin-left: 60px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 20px;
+  font-size: 20px;
+}
+
+@keyframes anima {
+  0% {
+    border-top-color: #3E2723;
+    border-width: 5px;
+  }
+  25% {
+    border-top-color: #3E2723;
+    border-width: 5px;
+  }
+  
+  50% {
+    border-right-color: #3E2723;
+    border-width: 5px;
+  }
+  
+  75% {
+    border-bottom-color: #3E2723;
+    border-width: 5px;
+  }
+  
+  100% {
+    border-left-color: #3E2723;
+    border-width: 5px;
+  }
+}
+
+
+@media screen and (max-width: 950px){
+	.boite {
+		margin-top: 25%;
+	}
+}

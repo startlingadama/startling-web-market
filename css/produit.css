@@ -1,0 +1,85 @@
+body {
+	background-image: url("./../img/produit/produit-box-bg.jpg");
+	background-size: 700px 600px;
+	color: white;
+}
+
+/*	 		gestion des contenairs 				*/
+
+.produit-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* gestion des images */
+
+.aspect {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.titre3 {
+	font-size: 25px;
+	margin:  8px;
+}
+
+.group-img {
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border-style: solid;
+	border-radius: 10px;
+	width: 450px;
+	height: 280px;
+	background-color: #C99D4F;
+}
+
+#img-box {
+	height: 250px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+#box-gauche, #box-droite {
+	height: 25px;
+	width: 25px
+}
+
+/* barre de livraison */
+
+.produit-barre {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+#produit-input {
+	width: 30px;
+	height: 20px;
+}
+
+#produit-barre-button {
+	height: 25px;
+	font-size: 15px;
+}
+
+.contacts {
+	text-align: center;
+	color: #6F2809;
+}
+
+.titre1 a:link, .titre1 a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.titre4 {
+        margin-bottom: 5px;
+        margin-left: 20px;
+	font-size: 30px;
+}
