@@ -9,6 +9,7 @@ window.onscroll = function(event){
 		}
 }
 
+/*
 function produit_box(){
 	var width = window.innerWidth;
 
@@ -18,6 +19,27 @@ function produit_box(){
 	else {
 		window.open("./html/produit.html", "", "toolbar=yes,scrollbars=no,titlebar=0,location=0,resizable=no,top=200,left=650,width=700,height=600");
 	}
+}*/
+
+// produit box
+
+var contenair_box = document.getElementsByClassName("produit-box-panneaux")[0];
+var close = document.getElementById("close");
+
+function produit_box(){
+	contenair_box.style.display = "block";
 }
 
+
+function close_f(){
+	contenair_box.style.display = "none";
+}
+
+close.addEventListener("click", close_f);
+
+window.onclick = function(event){
+	if( event.target != contenair_box ){
+		contentair_box.style.display = "none";
+	}
+}
 

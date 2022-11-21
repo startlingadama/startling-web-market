@@ -33,15 +33,17 @@
 		<main class="principal">
 			<div class="presentation" id="present">
 				<h1 class="titre1">Bienvenue chez Startling Web Market</h1>
-				<h5 class="titre5">Nous sommes une startup qui a pour vision de combler vos besoins en matère de l'habillement.</h5>
-				<img src="./img/down-arrow.png" alt="fleche" class="fleche"/>
+				<h5 class="titre5">Nous sommes une startup qui a pour vision de combler vos besoins en matère du style, de la mode et du numérique</h5>
+				<a href="#produit-g" class="fleche">
+					<img src="./img/down-arrow.png" alt="fleche" class="fleche"/>
+				</a>
 			</div>
 			
 
 			<div class="produitList">
 				<h3 class="titre3" id="produit-g">Faîtes plaisir à vos yeux avec nos produits</h3>
-				<div class="produitList-g">
-					<div class="produit-p">
+				<div class="produitList-g" id="produitList-g">
+					<div class="produit-p" id="produit-p">
 						<img src="./img/produit/pcg1.png" alt="produit-img" id="produit-img"/>
 						<p class="produit-p-option">
 							<button id="produit-p-p-detail"  onclick="produit_box()">Détails</button>
@@ -125,7 +127,38 @@
                                                         <button id="produit-p-ajout" command="">Ajouter</button>
                                                 </p>
                                         </div>
-				</div>
+					<div class="produit-box-panneaux">
+						<span id="close">&times;</span>
+						<div class="produit-box">
+                        				<div class="aspect">
+                                				<h3 class="titre3-box">Détails sur le Produit</h3>
+                                				<div class="group-img">
+                                        				<img src="./img/produit/back.png" alt="gauche" id="box-gauche"/>
+                                        				<img src="./img/produit/pcg1.png" alt="Produit-img" id="img-box"/>
+                                        				<img src="./img/produit/next.png" alt="droite" id="box-droite"/>
+                               	 				</div>
+                        				</div>
+                        				<div class="caract">
+                                				<h4 class="titre4-box">Caractéristiques</h4>
+                                				<ul class="caract-liste" style="-">
+                                        				<li><strong>Nom:</strong> </li>
+                                        				<li><strong>Taille:</strong> </li>
+                                        				<li><strong>Style du pays:</strong> </li>
+                                       				 	<li><strong>Prix:</strong> </li>
+                                				</ul>
+                        				</div>
+
+
+                        				<p class="produit-barre">
+                                				<input type="number" value="1" id="produit-input" />
+                                				<button id="produit-barre-button">Livraison</button>
+                        				</p>
+
+                        				<div class="contacts">
+                                				<h1 class="titre1-box"><a href="tel:+212614166631">CONTACTEZ-NOUS</a></h1>
+                        				</div>
+						</div>
+					</div>
 			</div>
 
 
@@ -166,5 +199,6 @@
 			</footer>
 		</main>
 		<script src="./js/index.js" async></script>
+		<script src="./js/admin.js" async></script>
 	</body>
 </html>
