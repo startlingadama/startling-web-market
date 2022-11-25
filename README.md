@@ -1,13 +1,13 @@
 # STARTLING WEB MARKET
-**auteur**: Adama coulibaly
-**pseudo**: startlingadama
-**Etudiant**: Sciences mathématiques et Informatiques (SMI)
+<p>**auteur**: Adama coulibaly</p>
+<p>**pseudo**: startlingadama</p>
+<p>**Etudiant**: Sciences mathématiques et Informatiques (SMI)</p>
 
-**Description**:
-Ce projet est une implementation d'un site de E-commerce repondant 
-aux éxigences du cahier de charge donné par le professeur de technologie webe.
+<p>**Description**:</p>
+<p>Ce projet est une implementation d'un site de E-commerce repondant 
+aux éxigences du cahier de charge donné par le professeur de technologie webe.</p>
 
-**Structure**:
+<p>**Structure**:</p>
 	- **Index.html**:
 		Landpage du site presentant la presentation de la marque du client.
 		Ses produits, le contact pour lui joindre et enfin ses médias soc-
