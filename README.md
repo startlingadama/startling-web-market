@@ -3,11 +3,11 @@
 **pseudo**: startlingadama<br>
 **Etudiant**: Sciences mathématiques et Informatiques (SMI)<br>
 <br>
-**Description**: <br>
+##Description: <br>
 Ce projet est une implementation d'un site de E-commerce repondant 
 aux éxigences du cahier de charge donné par le professeur de technologie web.<br>
 
-**Structure**:<br>
+##Structure:<br>
 	- **Index.html**:<br>
 		Landpage du site presentant la presentation de la marque du client.
 		Ses produits, le contact pour lui joindre et enfin ses médias soc-
